@@ -38,7 +38,7 @@ export default function About(){
                             or solve a problem that I could only think about before. Everything became more interesting when I arrived at the college and started a web design course that captivated me totally.</p>
                         <p>Unfortunately, it was only an optional course that I took and I didn't give it that much importance at that time because I had other projects on my back. 
                             In the end, after finishing college, I realized that everything I learned was very beneficial to me, but I wouldn't have seen myself doing that every day. </p>
-                        <p>So, in the last months, starting with July 2022 until now, I started my frontend developer journey and resumed what I started and liked the most in college</p>
+                        <p>So, in the last months, starting with July 2022 until now, I started my frontend developer journey and resumed what I started and liked the most in college.</p>
                         <button className='show' onClick={Show}>{show ? "Show less" : "Show more"}</button>
                     </div> :
                     <div className='dis-anim'>
