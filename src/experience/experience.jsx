@@ -11,6 +11,7 @@ import {DiMysql} from "react-icons/di"
 import {DiPython} from "react-icons/di"
 import {FiFigma} from "react-icons/fi"
 import {Dfinity, Motoko} from "./index.jsx"
+import {SiTypescript} from "react-icons/si"
 
 export default function Experience(){
     return (
@@ -24,10 +25,7 @@ export default function Experience(){
                 <Element image={DiReact} name={"React"}/>
                 <Element image={FiFigma} name={"Figma"}/>
                 <Element image={DiNodejsSmall} name={"Node JS"}/>
-                <Element image={DiMysql} name={"MySQL"}/>
-                <Element image={DiPython} name={"Python"}/>
-                <Element image={Dfinity} name={"Internet Computer"}/>
-                <Element image={Motoko} name={"Motoko"}/>
+                <Element image={SiTypescript} name={"Typescript"}/>
             </div>
         </section>
     )
