@@ -10,7 +10,7 @@
     width: var(--width-desktop);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin: 0 auto;
+    margin: 3rem auto 0 auto;
     justify-content: center;
     align-items: center;
     gap: 0 3rem;
@@ -26,18 +26,38 @@
     display: flex;
     flex-direction: column;
     transition: 400ms;
+    position: relative;
 }
 
-.project:hover{
+.project .new{
+    position: absolute;
+    font-size: 1.25rem;
+    width: 4rem;
+    height: 4rem;
+    left: -5%;
+    top: -5%;
     background-color: var(--main-color);
+    border-radius: 10px;
 }
 
-.project:hover .btn{
+.project .inProgress{
+    margin: 0;
+    font-size: inherit;
+    margin-left: .5rem;
+    color: var(--main-color);
+}
+
+.project .title{
+    display: flex;
+}
+
+.project .btn:hover{
     background-color: var(--second-color);
 }
 
 .project img{
     width: 100%;
+    max-height: 21rem;
     border-radius: 10px;
     align-self: center;
     margin-bottom: 1rem;
@@ -52,6 +72,23 @@
 .project p{
     width: 25vw;
     height: 30vh;
+}
+
+.project .tech{
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 5rem;
+}
+
+.project .tech .icon{
+    width: 2rem;
+    height: 2rem;
+    padding: 0.65rem;
+}
+
+.project .tech .icon:hover{
+    color: var(--main-color);
+    
 }
 
 .project .buttons{
